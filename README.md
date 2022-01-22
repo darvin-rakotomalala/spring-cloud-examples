@@ -3,13 +3,11 @@ Dans ce repo, nous allons voir des exemples de Spring Cloud : Service Discovery 
 
 ### Aperçu
 ---
-Dans une architecture de microservice typique, de nombreuses petites applications sont déployées séparément et elles doivent 
-souvent communiquer entre elles. Plus précisément, lorsque nous parlons de service client , nous entendons un service 
-qui doit effectuer des appels REST vers un autre service final.
+Dans une architecture de microservice typique, de nombreuses petites applications sont déployées séparément et elles doivent souvent communiquer entre elles. Plus précisément, lorsque nous parlons de service client , nous entendons un service qui doit effectuer des appels REST vers un autre service final.
 
 ### Qu'est-ce que Micro-service ?
 ---
-Les micro-services sont une approche d’architecture et de développement d’une application composée de petits services. L’idée étant de découper un grand problème en petites unités implémentée sous forme de micro-services.<br/>
+Les micro-services sont une approche d’architecture et de développement d’une application composée de petits services. L’idée étant de découper un grand problème en petites unités implémentée sous forme de micro-services.<br/><br/>
 **Avantages d’une application basée sur micro-services** :
 * Performances
 * Redéploiement à chaud
@@ -24,10 +22,8 @@ Les micro-services sont une approche d’architecture et de développement d’u
 
 ### Qu'est-ce que Spring Cloud et Netflix Eureka ?
 ---
-**Spring Cloud** : Projet Spring pour créer des applications microservices, fournitregistration, configuration et Proxy service.<br/>
-**Netflix Eureka** est un serveur de recherche (également appelé registre). Tous les microservices du cluster s'enregistrent sur ce serveur.
-Lors d'un appel REST à un autre service, au lieu de fournir un nom d'hôte et un port, ils fournissent simplement le nom du service.
-Le routage réel est effectué au moment de l'exécution avec une répartition égale de la charge entre les services finaux. 
+**Spring Cloud** : Projet Spring pour créer des applications microservices, fournitregistration, configuration et Proxy service.<br/><br/>
+**Netflix Eureka** est un serveur de recherche (également appelé registre). Tous les microservices du cluster s'enregistrent sur ce serveur. Lors d'un appel REST à un autre service, au lieu de fournir un nom d'hôte et un port, ils fournissent simplement le nom du service. Le routage réel est effectué au moment de l'exécution avec une répartition égale de la charge entre les services finaux. 
 
 ### Terminologie clé
 ---
@@ -42,3 +38,4 @@ Le routage réel est effectué au moment de l'exécution avec une répartition �
 
 ### Architecture globale
 ---
+![Archi_globale](https://user-images.githubusercontent.com/75081354/150629583-19791a83-1258-4861-b35c-5bf01585b460.jpg)
