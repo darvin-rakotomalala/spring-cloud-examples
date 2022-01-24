@@ -1,12 +1,5 @@
-## Spring Boot - Spring Cloud exemple
-Dans ce repo, nous allons voir un exemple simple de Spring Cloud : Service Discovery avec Eureka.
-
-### Exemple
----
-Pour comprendre ce concept, nous allons construire trois services dans notre exemple :
-* **Eureka Server** : agit comme un registre de services.
-* **Movie Service** : un service REST simple qui fournit des informations sur les films.
-* **Service de recommandation** : un simple service REST mais il appelle en interne le Movie Service pour compléter ses requêtes.
+## Spring Cloud - Product Service exemple
+Dans ce repo, nous allons voir un exemple simple de Spring Cloud avec le microservices produit.
 
 ### Prérequis
 ---

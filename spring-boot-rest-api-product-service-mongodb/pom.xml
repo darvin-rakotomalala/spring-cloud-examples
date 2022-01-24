@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.poc</groupId>
-	<artifactId>spring-cloud-service-discovery-eureka-example</artifactId>
+	<artifactId>spring-boot-rest-api-product-service-mongodb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-service-discovery-eureka-example</name>
+	<name>spring-boot-rest-api-product-service-mongodb</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

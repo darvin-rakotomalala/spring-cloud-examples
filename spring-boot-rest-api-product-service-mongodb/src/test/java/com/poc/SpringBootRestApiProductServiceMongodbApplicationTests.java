@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudServiceDiscoveryEurekaExampleApplicationTests {
+class SpringBootRestApiProductServiceMongodbApplicationTests {
 
 	@Test
 	void contextLoads() {

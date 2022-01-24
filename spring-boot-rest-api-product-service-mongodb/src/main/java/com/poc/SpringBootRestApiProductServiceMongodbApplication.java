@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringCloudServiceDiscoveryEurekaExampleApplication {
+public class SpringBootRestApiProductServiceMongodbApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudServiceDiscoveryEurekaExampleApplication.class, args);
+		SpringApplication.run(SpringBootRestApiProductServiceMongodbApplication.class, args);
 	}
 
 }

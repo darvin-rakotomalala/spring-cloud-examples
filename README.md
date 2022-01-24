@@ -39,3 +39,17 @@ Les micro-services sont une approche d’architecture et de développement d’u
 ### Architecture globale
 ---
 ![Archi_globale](https://user-images.githubusercontent.com/75081354/150629583-19791a83-1258-4861-b35c-5bf01585b460.jpg)
+
+### Cas pratique
+---
+Pour comprendre ce concept, nous allons créer une application d'achat en ligne simple. 
+L'objectif principal de cet exemple sera d'expliquer l'architecture des microservices et la mise en œuvre, 
+de sorte que la fonctionnalité de l'application sera minimale.<br/>
+
+Nous allons mettre en place 4 Services : 
+* Service produit
+* Service de commande
+* Service d'inventaire
+* Service de notifications
+
+Voilà ! nous avons réalisé un exemple des microservices de Spring Cloud avec Netflix Eureka.
